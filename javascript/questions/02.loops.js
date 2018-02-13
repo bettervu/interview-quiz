@@ -1,4 +1,4 @@
-// refactor each functions without using a for-loop
+// refactor each function without using a for-loop
 
 var items = [{ resource: 'javascript', param: 'quiz.js' }, { resource: 'swift', param: 'ios.swift' }, { resource: 'video', param: 'training.mov' }];
 function myMapper() {
