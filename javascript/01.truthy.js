@@ -1,4 +1,5 @@
 // write out what will be shown in the console
+/* eslint-disable */
 
 function easy() {
   if (true) {
@@ -125,11 +126,5 @@ function bonus() {
     console.log(11);
   } else {
     console.log(12);
-  }
-
-  if ({ prop: 1 }[0]) {
-    console.log(13);
-  } else {
-    console.log(14);
   }
 }

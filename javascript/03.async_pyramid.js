@@ -5,10 +5,10 @@ let fs = require('fs');
 console.log('1');
 
 fs.readFile('./04.async_pyramid.js', 'utf8', function(error, data) {
-    if (error) {
-         throw error;
-    }
-    console.log('2');
+  if (error) {
+    throw error;
+  }
+  console.log('2');
 });
 
 console.log('3');
@@ -52,16 +52,3 @@ job2(data => {
     });
   });
 });
-
-// 3. this function currently calls callback1 once and callback2 three times.
-// change this function to satisfy these conditions:
-// - callback1 is called once, after 2 seconds.
-// - callback2 is called three times at an interval of 1 second.
-
-function job(callback1, callback2) {
-  callback1();
-
-  callback2();
-  callback2();
-  callback2();
-}
