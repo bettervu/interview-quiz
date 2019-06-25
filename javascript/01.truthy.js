@@ -1,4 +1,5 @@
 // write out what will be shown in the console
+/* eslint-disable */
 
 function easy() {
   if (true) {

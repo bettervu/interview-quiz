@@ -13,17 +13,6 @@ function myMapper() {
   console.log(urls);
 }
 
-items = [1, 2, 3, 4, 5, 6, 7, 8];
-function myFilter() {
-  let vals = [];
-  for (let i = 0; i < items.length; i++) {
-    if (items[i] % 2 === 0) {
-      vals.push(items[i]);
-    }
-  }
-  console.log(vals);
-}
-
 items = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
 function myReducer() {
   let val = 0;
@@ -32,3 +21,18 @@ function myReducer() {
   }
   console.log(val);
 }
+
+items = [1, 2, 3, 4, 5, 6, 7, 8];
+function myFilter() {
+  const vals = [];
+  for (let i = 0; i < items.length; i++) {
+    if (items[i] % 2 === 0) {
+      vals.push(items[i]);
+    }
+  }
+  console.log(vals);
+}
+
+myMapper();
+myReducer();
+myFilter();
