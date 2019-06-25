@@ -126,10 +126,4 @@ function bonus() {
   } else {
     console.log(12);
   }
-
-  if ({ prop: 1 }[0]) {
-    console.log(13);
-  } else {
-    console.log(14);
-  }
 }
