@@ -28,40 +28,40 @@ function easy() {
 }
 
 function strings() {
-  if ('') {
+  if ("") {
     console.log(1);
   } else {
-    console.error(2);
+    console.log(2);
   }
 
-  if (' ') {
+  if (" ") {
     console.log(3);
   } else {
-    console.error(4);
+    console.log(4);
   }
 
-  if ('false') {
-    console.error(5);
+  if ("false") {
+    console.log(5);
   } else {
     console.log(6);
   }
 
-  if ('true') {
-    console.error(7);
+  if ("true") {
+    console.log(7);
   } else {
     console.log(8);
   }
 
-  if ('0') {
+  if ("0") {
     console.log(9);
   } else {
     console.log(10);
   }
 
-  if ('1') {
-    console.error(11);
+  if ("1") {
+    console.log(11);
   } else {
-    console.error(12);
+    console.log(12);
   }
 }
 
@@ -73,9 +73,9 @@ function numbers() {
   }
 
   if (25) {
-    console.error(3);
+    console.log(3);
   } else {
-    console.error(4);
+    console.log(4);
   }
 
   if (-25) {
@@ -85,13 +85,13 @@ function numbers() {
   }
 
   if (Infinity) {
-    console.error(7);
+    console.log(7);
   } else {
-    console.error(8);
+    console.log(8);
   }
 }
 
-function bonus() {
+function extra() {
   if ({}) {
     console.log(1);
   } else {
@@ -99,9 +99,9 @@ function bonus() {
   }
 
   if ([]) {
-    console.error(3);
+    console.log(3);
   } else {
-    console.error(4);
+    console.log(4);
   }
 
   if ([].length) {
@@ -110,19 +110,19 @@ function bonus() {
     console.log(6);
   }
 
-  if (+'0') {
-    console.error(7);
+  if (+"0") {
+    console.log(7);
   } else {
-    console.error(8);
+    console.log(8);
   }
 
-  if (-'1') {
+  if (-"1") {
     console.log(9);
   } else {
     console.log(10);
   }
 
-  if (~'test'.indexOf('4')) {
+  if (~"test".indexOf("4")) {
     console.log(11);
   } else {
     console.log(12);
