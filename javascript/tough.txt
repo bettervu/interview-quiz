@@ -1,0 +1,28 @@
+https://github.com/lydiahallie/javascript-questions#3-whats-the-output
+
+objects
+5 - all - A
+10 - all - A
+47 - all - B
+
+ref vs value
+6 - all - A
+
+operators
+16 - medium - C
+
+functions
+27 - all - C
+33 - medium - D
+40 - all - C
+50 - all - C
+
+timers
+30 - all - B
+42 - all - A
+
+exception handling
+52 - all - D
+
+
+stopped at 67
