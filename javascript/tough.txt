@@ -9,11 +9,11 @@ ref vs value
 6 - all - A
 
 operators
-16 - medium - C
+16 - medium - C (SKIP THIS FOR NOW)
 
 functions
 27 - all - C
-33 - medium - D
+33 - very hard - D
 40 - all - C
 50 - all - C
 
