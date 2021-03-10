@@ -83,12 +83,6 @@ function numbers() {
   } else {
     console.log(6);
   }
-
-  if (Infinity) {
-    console.log(7);
-  } else {
-    console.log(8);
-  }
 }
 
 function extra() {
@@ -122,7 +116,7 @@ function extra() {
     console.log(10);
   }
 
-  if (~"test".indexOf("4")) {
+  if ("test".indexOf("4")) {
     console.log(11);
   } else {
     console.log(12);
