@@ -116,7 +116,7 @@ function extra() {
     console.log(10);
   }
 
-  if ("test".indexOf("4")) {
+  if ("test".indexOf("abc") > -1) {
     console.log(11);
   } else {
     console.log(12);
